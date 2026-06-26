@@ -122,7 +122,7 @@ function Dashboard() {
       {/* Header */}
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "20px" }}>
         <div>
-          <h1 style={{ fontSize: "22px", fontWeight: "600", margin: "0 0 4px 0", color: t.text }}>My Medicines</h1>
+          <h1 style={{ fontSize: "22px", fontWeight: "600", margin: "0 0 4px 0", color: t.text }}>Medicine Manager</h1>
           <p style={{ fontSize: "13px", color: t.muted, margin: 0 }}>{medicines.length} medicines tracked</p>
         </div>
         <div style={{ display: "flex", gap: "6px", flexWrap: "wrap", justifyContent: "flex-end" }}>
